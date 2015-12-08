@@ -12,3 +12,5 @@
 */
 
 Route::controller('sample/hoge', 'Sample\HogeController');
+
+Route::controller('mithril', 'MithrilController');

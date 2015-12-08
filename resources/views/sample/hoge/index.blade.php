@@ -1,3 +1,5 @@
+@extends('layout')
+@section('content')
 {!! Form::open(array('url' => '/sample/hoge/create')) !!}
     <div>
         文字
@@ -8,3 +10,4 @@
         {!! Form::submit('作成', ['name'=>'submit']) !!}
     </div
 {!! Form::close() !!}
+@endsection
